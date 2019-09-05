@@ -1,0 +1,122 @@
+body
+{
+	background:linear-gradient(rgba(62,20,20,.4),rgba(62,20,20,.4)), url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	font-family: 'lato';
+	font-weight: 300;
+	position: relative;
+
+
+}
+.aplayer
+{
+	width: 50%;
+	float: left;
+	height: 600px;
+	padding: 100px;
+	background:darkgrey;
+	color:beige;
+
+}
+.p-name
+{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 300px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.p-score
+{
+	text-align: center;
+	font-size: 80px;
+	font-weight: 100;
+	color:#EB4D4D;
+	margin-top: 130px;
+}
+.player-current-box
+{
+	background:#EB4D4D;
+	color: #ffffff;
+	width: 40%;
+	margin:0 auto;
+	padding: 13px;
+	text-align: center;
+}
+.player-current-label
+{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #222;
+}
+.player-current-score;
+{
+	font-size: 40px;
+}
+button
+{
+	position: absolute;
+	width: 200px;
+	left:50%;
+	transform: translate(-50%);
+	color: #555;
+	background:none;
+	border: none;
+	font-family: 'lato';
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 300;
+	transition: background-color 0.5s ease,color 0.3s ease;
+
+}
+button:hover
+{
+	font-weight: 600;
+}
+button:hover i
+{
+	margin-right: 20px;
+}
+button:focus
+{
+	outline:none;
+}
+i
+{
+color: #EB4D4D;
+display:inline-block;
+margin-right: 15px;
+font-size:32px;
+line-height:1 ;
+vertical-align: text-top;
+margin-top: -4px;
+transition: margin 0.3s ease; 
+}
+.bt
+{
+	top:465px;
+}
+#timer
+{
+	padding: 50px;
+	width: 20%;
+	font-size: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
